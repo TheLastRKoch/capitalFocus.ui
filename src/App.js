@@ -1,11 +1,25 @@
+import * as React from 'react';
 import './App.css';
-import {Container, Button} from '@material-ui/core'; 
+import { TextField } from '@material-ui/core';
+import Header from './components/NavBar.js';
 
 function App() {
   return (
-    <Container maxWidth="sm">
-      <Button variant="contained">This is a init</Button>
-    </Container>
+    <div className="App">
+      <Header />
+
+
+      <br /><br />
+      <TextField id="outlined-basic" label="Description" variant="outlined" />
+      <TextField id="outlined-basic" label="Left" variant="outlined" />
+      <br /><br />
+
+
+      
+
+    </div>
+
+
   );
 }
 
