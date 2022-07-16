@@ -1,6 +1,13 @@
+import Base from "./components/Base/Base";
+import Budget from "./components/Budget/Budget";
+
 function App() {
   return (
-    "Hello Word"
+     <div>
+       <Base></Base>
+       <br></br>
+       <Budget></Budget>
+     </div>
   );
 }
 

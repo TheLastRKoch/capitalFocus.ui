@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 
 function CustomToggle({ children, eventKey }) {
   const decoratedOnClick = useAccordionButton(eventKey, () =>
@@ -29,7 +30,7 @@ function CustomToggle({ children, eventKey }) {
   );
 }
 
-function App() {
+function Budget1() {
   return (
     <Accordion defaultActiveKey="0">
       <Card>
@@ -73,5 +74,14 @@ function App() {
   );
 }
 
+function Budget (){
+    return (
+        <Container>
+            <Row>
+                <Col><h2>Hello Word</h2></Col>
+            </Row>
+        </Container>
+    )
+}
 
-export default App;
+export default Budget;
