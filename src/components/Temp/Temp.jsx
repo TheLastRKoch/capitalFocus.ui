@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Accordion from 'react-bootstrap/Accordion';
-import './Temp.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';

@@ -1,5 +1,4 @@
 import React from 'react';
-import './BudgetDetail.css';
 
 class BudgetDetail extends React.Component {
   render() {

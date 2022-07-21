@@ -1,5 +1,4 @@
 import React from 'react';
-import './BudgetElement.css';
 import PropTypes from 'prop-types';
 
 const BudgetElement = (props) => (
