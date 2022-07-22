@@ -1,20 +1,23 @@
 import { Container } from "react-bootstrap";
 import { Routes, Route } from "react-router-dom";
+import "./App.css"
 
 //Components
-// import Base from "./components/Base/Base";
-// import Budget from "./components/layout/";
 import Layout from "./layout/Layout";
 
 // Pages
-import Budget from "./pages/Budget"
+import BudgetManagement from "./pages/BudgetManagement"
+import Dasboard from "./pages/Dasboard"
+import NotFound from "./pages/NotFound"
 
 function App() {
   return (
     <Layout>
-      <Container>
+      <Container className="App">
       <Routes>
-        <Route path="/budget" element={<Budget/>}/>
+        <Route path="/budgetManagement" element={<BudgetManagement/>}/>
+        <Route path="/" element={<Dasboard/>}/>
+        <Route component={NotFound} />
       </Routes>
       </Container>
     </Layout>

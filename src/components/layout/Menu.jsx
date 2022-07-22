@@ -5,12 +5,13 @@ import Nav from 'react-bootstrap/Nav';
 const Menu = () => (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">CapitalFocus</Navbar.Brand>
+          <Navbar.Brand href="/">CapitalFocus</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Dashboard</Nav.Link>
-              <Nav.Link href="#pricing">Budget manager</Nav.Link>
+            <Nav.Link href="/MovementCategorization">Movement Categorization</Nav.Link>
+            <Nav.Link href="/budgetList">Budget List</Nav.Link>
+              <Nav.Link href="/budgetManagement">Budget Manager</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link eventKey={2} href="#memes">
