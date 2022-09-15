@@ -6,6 +6,7 @@ import "./App.css"
 import Layout from "./layout/Layout";
 
 // Pages
+import UncategorizedItems from "./pages/UncategorizedItems";
 import BudgetManagement from "./pages/BudgetManagement"
 import Dasboard from "./pages/Dasboard"
 import NotFound from "./pages/NotFound"
@@ -16,6 +17,7 @@ function App() {
       <Container className="App">
       <Routes>
         <Route path="/budgetManagement" element={<BudgetManagement/>}/>
+        <Route path="/uncategorizedItems" element={<UncategorizedItems/>}/>
         <Route path="/" element={<Dasboard/>}/>
         <Route component={NotFound} />
       </Routes>
